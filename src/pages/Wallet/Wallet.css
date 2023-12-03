@@ -1,0 +1,61 @@
+/* Wallet.css */
+
+.wallet {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position: relative;
+}
+.menu{
+    height: 100%;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #18161D;
+    min-width: 3rem;
+}
+.openMenu {
+    width: 15%;
+}
+.closeMenu {
+    width: 5%;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu-button{
+    background-color: aliceblue;
+    border-radius: 2px;
+    width: 80%;
+    right: 0;
+}
+
+.menu-option{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.selectable-button {
+    width: 80%;
+    background-color: #202027;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.22), 0 5px 5px rgba(0, 0, 0, 0.35);
+}
+
+.icon{
+    width: 1rem;
+}

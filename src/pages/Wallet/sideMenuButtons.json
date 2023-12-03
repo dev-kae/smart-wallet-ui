@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Nexus",
+    "icon": "./nexus.png"
+  },
+  {
+    "text": "Histórico",
+    "icon": "./calendario.png"
+  },
+  {
+    "text": "Gráficos",
+    "icon": "graficos.png"
+  },
+  {
+    "text": "Registros",
+    "icon": "./adicionar.png"
+  }
+]
